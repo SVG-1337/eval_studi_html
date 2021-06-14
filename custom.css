@@ -34,3 +34,10 @@ a.evenement {
 p {
     margin: 0!important;
 }
+div.card {
+    margin: 10px 0;
+    background-color: lightgray;
+}
+div.card p {
+    padding-bottom: 10px;
+}
