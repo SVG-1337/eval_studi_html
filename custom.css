@@ -1,0 +1,36 @@
+h1.field-title,
+h2.field-title {
+    padding-top: 20px;
+}
+header {
+    background-color: lightgray;
+}
+main {
+    background-color: #18A096;
+    padding-bottom: 40px;
+}
+footer {
+    
+    padding: 20px 0;
+    background: #000;
+
+}
+footer ul {
+    list-style: none;
+}
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+footer  p,
+footer  a {
+    color: white;
+}
+a.evenement {
+    color: white;
+   display: flex;
+   justify-content: flex-end;
+}
+p {
+    margin: 0!important;
+}
