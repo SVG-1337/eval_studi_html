@@ -13,12 +13,20 @@
         padding-bottom: 40px;
     }
  
- 
+    .carousel-inner {
+        height: 300px;
+    }
     p {
         margin: 0!important;
     }
- 
+    img.img-header {
+        background-size: cover!important;
     }
+    footer div.col:last-of-type {
+        padding-top: 30px;
+    }
+    }
+    
 
 @media screen and (min-width: 641px) {
     
@@ -27,7 +35,9 @@
     }
     img.img-fluid.img-header {
         min-width: 100%;
-        height: 600px
+        height: 600px;
+        background-size: cover!important;
+        background-position: bottom!important;
     }
     h1, h2 {
         margin: 40px 0!important
@@ -83,4 +93,26 @@ nav li a:hover {
 }
 .card img {
     max-height: 300px;
+}
+.img-container {
+    display: flex;
+}
+img.img-fluid.img-header {
+    background-image: url(assets/fiona-smallwood-iUxjs-F0voI-unsplash.jpg);
+    width: 100%;
+    height:400px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.carousel-item,
+.carousel-item.active {
+    height: 700px;
+    width: 100%;
+}
+
+footer div.col {
+    display: flex;
+    justify-content: center;
 }
